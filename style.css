@@ -1,3 +1,35 @@
+*{
+    color: white;
+}
 li {
-    appearance: nones;
+    list-style: none;
+}
+#main-container-menu {
+    display: flex;
+    justify-content: space-between;
+}
+.container-menu-link > ul {
+    display: flex;
+}
+.container-menu-link > ul > li {
+    margin: 20px;
+}
+#main-container-slide {
+    position: relative;
+}
+.container-slide-text {
+    position: absolute;
+    top: 30%;
+    right: 40%;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: larger;
+}
+.slide-title-big {
+    color: #5dacd2;
+}
+.container-slide-text button {
+    background-color: #5dacd2;
+    padding: 15px;
+    border-radius: 10px;
 }
